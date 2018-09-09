@@ -1,0 +1,65 @@
+package com.eShop.entities;
+
+import java.util.Date;
+
+public class Discount {
+
+	Long discountId;
+	String merchantDiscountType;
+	String webDiscountType;
+	Long merchantDiscount;
+	Long webDiscount;
+	Long productMerchantId;
+	Date merchantDiscountExpiryDate;
+	Date webDiscountExpiryDate;
+	
+	public Long getDiscountId() {
+		return discountId;
+	}
+	public void setDiscountId(Long discountId) {
+		this.discountId = discountId;
+	}
+	public String getMerchantDiscountType() {
+		return merchantDiscountType;
+	}
+	public void setMerchantDiscountType(String merchantDiscountType) {
+		this.merchantDiscountType = merchantDiscountType;
+	}
+	public String getWebDiscountType() {
+		return webDiscountType;
+	}
+	public void setWebDiscountType(String webDiscountType) {
+		this.webDiscountType = webDiscountType;
+	}
+	public Long getMerchantDiscount() {
+		return merchantDiscount;
+	}
+	public void setMerchantDiscount(Long merchantDiscount) {
+		this.merchantDiscount = merchantDiscount;
+	}
+	public Long getWebDiscount() {
+		return webDiscount;
+	}
+	public void setWebDiscount(Long webDiscount) {
+		this.webDiscount = webDiscount;
+	}
+	public Long getProductMerchantId() {
+		return productMerchantId;
+	}
+	public void setProductMerchantId(Long productMerchantId) {
+		this.productMerchantId = productMerchantId;
+	}
+	public Date getMerchantDiscountExpiryDate() {
+		return merchantDiscountExpiryDate;
+	}
+	public void setMerchantDiscountExpiryDate(Date merchantDiscountExpiryDate) {
+		this.merchantDiscountExpiryDate = merchantDiscountExpiryDate;
+	}
+	public Date getWebDiscountExpiryDate() {
+		return webDiscountExpiryDate;
+	}
+	public void setWebDiscountExpiryDate(Date webDiscountExpiryDate) {
+		this.webDiscountExpiryDate = webDiscountExpiryDate;
+	}
+	
+}

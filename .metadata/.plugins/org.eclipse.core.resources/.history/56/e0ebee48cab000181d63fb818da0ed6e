@@ -1,0 +1,56 @@
+package com.eShop.entities;
+
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+
+@Entity
+public class ProductMerchant {
+
+	Long productMerchantId;
+	Long porductId;
+	Long merchantId;
+	Double price;
+	Long discount;
+	String comment;
+	
+	@Id
+	@GeneratedValue
+	public Long getProductMerchantId() {
+		return productMerchantId;
+	}
+	public void setProductMerchantId(Long productMerchantId) {
+		this.productMerchantId = productMerchantId;
+	}
+	public Long getPorductId() {
+		return porductId;
+	}
+	public void setPorductId(Long porductId) {
+		this.porductId = porductId;
+	}
+	public Long getMerchantId() {
+		return merchantId;
+	}
+	public void setMerchantId(Long merchantId) {
+		this.merchantId = merchantId;
+	}
+	public Double getPrice() {
+		return price;
+	}
+	public void setPrice(Double price) {
+		this.price = price;
+	}
+	public Long getDiscount() {
+		return discount;
+	}
+	public void setDiscount(Long discount) {
+		this.discount = discount;
+	}
+	public String getComment() {
+		return comment;
+	}
+	public void setComment(String comment) {
+		this.comment = comment;
+	}
+	
+}

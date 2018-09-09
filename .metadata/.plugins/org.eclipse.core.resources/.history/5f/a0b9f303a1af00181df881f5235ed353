@@ -1,0 +1,28 @@
+package com.eShop.entities;
+
+public class QuestionOptions {
+
+	Long questionOptionId;
+	Long questionId;
+	String optionText;
+	
+	public Long getQuestionOptionId() {
+		return questionOptionId;
+	}
+	public void setQuestionOptionId(Long questionOptionId) {
+		this.questionOptionId = questionOptionId;
+	}
+	public Long getQuestionId() {
+		return questionId;
+	}
+	public void setQuestionId(Long questionId) {
+		this.questionId = questionId;
+	}
+	public String getOptionText() {
+		return optionText;
+	}
+	public void setOptionText(String optionText) {
+		this.optionText = optionText;
+	}
+	
+}
